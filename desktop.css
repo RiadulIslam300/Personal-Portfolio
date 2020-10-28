@@ -1,0 +1,114 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* nav bar design starts */
+.nav-logo{
+    text-align: left;
+}
+.nav-head h1{
+    text-align: right;
+}
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+   
+}
+.nav-menu a{
+    padding:5px 5px;
+    margin:20px;
+    background-color: transparent;
+    
+}
+/* nav bar design starts */
+/* profile design starts */
+
+.profile .top-weather{
+    position: absolute;
+    right:100px;
+    top:30px;
+    transition: width 2s,transform 2s;
+
+}
+.profile .top-weather:hover{
+    width:150px;
+  
+
+}
+
+.profile .bottom-weather{
+    position: absolute;
+    left:140px;
+   
+    
+    transition: width 2s,transform 2s;
+
+}
+.profile .bottom-weather:hover{
+    width:150px;
+}
+
+
+/* profile design starts */
+
+   /* about me design starts */
+   .about-me-img{
+       margin-top: 100px;
+   }
+   .about-me-img img{
+       height:300px;
+       width:300px;
+   }
+   .about-desc p{
+       text-align: left;
+   }
+
+    /* about me design starts */
+
+    /* professional section starts */
+    .professional-exp{
+        padding:1% 5%;
+    }
+
+    /* professional section ends */
+
+    /* achievement section starts */
+
+     .achievements{
+         padding-right: 100px;
+     }
+
+     .contact-links{
+         position: relative;
+     }
+     .media-button{
+         position: absolute;
+         margin-top: 200px;
+         top:50%;
+         left:35%;
+         translate: (-50%,-35%);
+     }
+
+
+     /* achievement section ends */
+     /* footer design starts */
+     .footer-menu{
+         margin-top: 12px;
+
+     }
+     .footer-menu a{
+         display: inline;
+         margin:10px;
+         font-size: 1.5rem;
+     }
+
+
+     /* footer design starts */
